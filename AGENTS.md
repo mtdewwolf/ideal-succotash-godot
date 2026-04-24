@@ -28,7 +28,8 @@ This repository packages **Agent Skills** for AI coding assistants (Cursor, Open
 | `godot-scenes-and-resources` | PackedScene, `.tscn` / `.tres`, resources |
 | `godot-editor-export-debug` | Editor, CLI, export, debugging, `project.godot` |
 | `godot-rendering-shaders-2d-3d` | Materials, environment, shaders |
-| `godot-physics-navigation` | Physics bodies, queries, navigation |
+| `godot-physics-navigation` | Physics bodies, areas, queries; light nav agent use |
+| `godot-navigation-advanced` | NavigationServer, baking, links, avoidance, multi-map |
 | `godot-ui-input-animation-audio` | Control UI, input map, tweens, audio |
 | `godot-multiplayer-networking` | ENet / high-level multiplayer, RPCs, authority |
 | `godot-csharp` | C# scripts and .NET interop with Godot 4 |
@@ -45,6 +46,13 @@ This repository packages **Agent Skills** for AI coding assistants (Cursor, Open
 | `godot-theming-ui-advanced` | Theme resources, type variations, style overrides |
 | `godot-accessibility-ui` | Focus, keyboard/gamepad UI, contrast, scale |
 | `godot-profiling-optimization` | Profiler, hotspots, CPU/GPU/physics/script cost |
+| `godot-threading-concurrency` | WorkerThreadPool, threads, mutexes, thread-safe APIs |
+| `godot-xr-openxr` | XR setup, OpenXR, performance and comfort notes |
+| `godot-visual-shaders` | VisualShader graphs vs GDShader tradeoffs |
+| `godot-compute-advanced-rendering` | Compute shaders, RenderingDevice, GPU pipelines |
+| `godot-mobile-platform-notes` | Android / iOS export, permissions, safe area, perf |
+| `godot-dcc-pipeline` | Blender / glTF, scale, materials, naming, LOD |
+| `godot-class-reference-workflow` | Docs lookup, version pinning, avoid invented APIs |
 
 ## Repository maintenance
 
