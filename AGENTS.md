@@ -35,6 +35,11 @@ This repository packages **Agent Skills** for AI coding assistants (Cursor, Open
 | `godot-gdextension` | Native extensions, `.gdextension`, bindings |
 | `godot-assets-import-pipeline` | Imported assets, `.import`, UID-safe moves |
 | `godot-testing-ci` | Automated tests, headless runs, CI |
+| `godot-animation` | AnimationPlayer, AnimationTree, blending, retargeting basics |
+| `godot-tilemap-2d-levels` | TileSet, TileMap layers, 2D level / nav from tiles |
+| `godot-files-data-io` | FileAccess, user://, JSON, ConfigFile, saves |
+| `godot-internationalization` | Translations, tr(), locales, fonts, RTL |
+| `godot-http-websocket-tls` | HTTPRequest, WebSocketPeer, TLS for web APIs |
 
 ## Repository maintenance
 
