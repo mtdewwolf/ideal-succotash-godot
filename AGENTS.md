@@ -40,6 +40,11 @@ This repository packages **Agent Skills** for AI coding assistants (Cursor, Open
 | `godot-files-data-io` | FileAccess, user://, JSON, ConfigFile, saves |
 | `godot-internationalization` | Translations, tr(), locales, fonts, RTL |
 | `godot-http-websocket-tls` | HTTPRequest, WebSocketPeer, TLS for web APIs |
+| `godot-particles-vfx` | GPU/CPU particles, process materials, VFX performance |
+| `godot-editor-plugins-tool-scripts` | EditorPlugin, @tool, editor-only tooling |
+| `godot-theming-ui-advanced` | Theme resources, type variations, style overrides |
+| `godot-accessibility-ui` | Focus, keyboard/gamepad UI, contrast, scale |
+| `godot-profiling-optimization` | Profiler, hotspots, CPU/GPU/physics/script cost |
 
 ## Repository maintenance
 
