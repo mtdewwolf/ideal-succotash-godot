@@ -19,6 +19,23 @@ This repository packages **Agent Skills** for AI coding assistants (Cursor, Open
 2. When work spans areas (e.g. scene + script + export), combine guidance from multiple skills.
 3. After structural edits to `.tscn` / `.tres` files, prefer validating with the editor or CLI if the user has Godot installed; do not invent UIDs or internal format details—copy patterns from existing files in the repo.
 
+## Skill index (folder name under `.agents/skills/`)
+
+| Skill folder | Scope |
+|--------------|--------|
+| `godot-4-engine-core` | Scene tree, lifecycle, groups, pausing |
+| `godot-gdscript` | GDScript language and common APIs |
+| `godot-scenes-and-resources` | PackedScene, `.tscn` / `.tres`, resources |
+| `godot-editor-export-debug` | Editor, CLI, export, debugging, `project.godot` |
+| `godot-rendering-shaders-2d-3d` | Materials, environment, shaders |
+| `godot-physics-navigation` | Physics bodies, queries, navigation |
+| `godot-ui-input-animation-audio` | Control UI, input map, tweens, audio |
+| `godot-multiplayer-networking` | ENet / high-level multiplayer, RPCs, authority |
+| `godot-csharp` | C# scripts and .NET interop with Godot 4 |
+| `godot-gdextension` | Native extensions, `.gdextension`, bindings |
+| `godot-assets-import-pipeline` | Imported assets, `.import`, UID-safe moves |
+| `godot-testing-ci` | Automated tests, headless runs, CI |
+
 ## Repository maintenance
 
 - Keep each skill **focused**: one primary concern per folder.
